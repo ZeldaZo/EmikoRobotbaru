@@ -59,6 +59,8 @@ from EmikoRobot.ex_plugins.ImageEditor.edit_5 import (  # pylint:disable=import-
 from EmikoRobot import pbot
 
 lel = 00000000
+
+
 # pylint:disable=import-error
 @pbot.on_message(filters.command(["edit", "editor"]))
 async def photo(client: pbot, message: Message):
